@@ -1,0 +1,17 @@
+2020-01-29 23:05:56.735 [ main ] - [ INFO  ] [ com.gf.SpringbootLoggingApplicationTests : 50 ] - Starting SpringbootLoggingApplicationTests on DESKTOP-7O6KHPB with PID 14472 (started by admin in D:\springboot\springboot-logging)
+2020-01-29 23:05:56.735 [ main ] - [ DEBUG ] [ com.gf.SpringbootLoggingApplicationTests : 53 ] - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2020-01-29 23:05:56.766 [ main ] - [ INFO  ] [ com.gf.SpringbootLoggingApplicationTests : 680 ] - No active profile set, falling back to default profiles: default
+2020-01-29 23:05:56.969 [ main ] - [ INFO  ] [ o.s.w.context.support.GenericWebApplicationContext : 590 ] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5e7cd6cc: startup date [Wed Jan 29 23:05:56 CST 2020]; root of context hierarchy
+2020-01-29 23:05:59.965 [ main ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 23:06:00.324 [ main ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerAdapter : 588 ] - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5e7cd6cc: startup date [Wed Jan 29 23:05:56 CST 2020]; root of context hierarchy
+2020-01-29 23:06:00.433 [ main ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 549 ] - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-01-29 23:06:00.449 [ main ] - [ INFO  ] [ o.s.w.s.m.m.a.RequestMappingHandlerMapping : 549 ] - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-01-29 23:06:00.480 [ main ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 23:06:00.480 [ main ] - [ INFO  ] [ o.s.web.servlet.handler.SimpleUrlHandlerMapping : 373 ] - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-01-29 23:06:00.824 [ main ] - [ INFO  ] [ com.gf.SpringbootLoggingApplicationTests : 59 ] - Started SpringbootLoggingApplicationTests in 5.516 seconds (JVM running for 9.276)
+2020-01-29 23:06:01.090 [ main ] - [ TRACE ] [ com.gf.SpringbootLoggingApplicationTests : 22 ] - 这是trace日志...
+2020-01-29 23:06:01.090 [ main ] - [ DEBUG ] [ com.gf.SpringbootLoggingApplicationTests : 23 ] - 这是debug日志...
+2020-01-29 23:06:01.090 [ main ] - [ INFO  ] [ com.gf.SpringbootLoggingApplicationTests : 25 ] - 这是info日志...
+2020-01-29 23:06:01.090 [ main ] - [ WARN  ] [ com.gf.SpringbootLoggingApplicationTests : 26 ] - 这是warn日志...
+2020-01-29 23:06:01.090 [ main ] - [ ERROR ] [ com.gf.SpringbootLoggingApplicationTests : 27 ] - 这是error日志...
+2020-01-29 23:06:01.121 [ Thread-2 ] - [ INFO  ] [ o.s.w.context.support.GenericWebApplicationContext : 993 ] - Closing org.springframework.web.context.support.GenericWebApplicationContext@5e7cd6cc: startup date [Wed Jan 29 23:05:56 CST 2020]; root of context hierarchy
